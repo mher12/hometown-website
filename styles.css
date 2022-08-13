@@ -1,0 +1,184 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #829cb4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+   }
+
+#hero{
+    margin: 0px auto;
+    padding: 50px 50px;
+    color: #536373;
+    background-image: url("images/carissa-rogers-uPIM1n7Dilg-unsplash.jpg");
+    background-size: cover; 
+    background-position: center;
+    width: 550px;
+    height: 230px; 
+    }
+#greetings {
+    color: #536373;
+    background: #e5f3ff;
+    padding: 5px 10px;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 0px auto;
+    font-size: 20px;
+}
+#city {
+    color: #536373;
+    background: #f3f6f4;
+    opacity: .6;
+    padding: 3px 10px;
+    width: 450px;
+    border-radius: 5px;
+    margin: 5px auto;
+    font-style: italic;
+    font-size: 30px;
+    text-shadow: 0 0 1px black;
+    
+    
+}
+#welcome {
+    color:#536373;
+    font-size: 16px;
+    background: #e5f3ff;
+    padding: 5px 5px;
+    width: 520px;
+    border-radius: 5px;
+    margin: 150px auto 0px;
+    opacity: .85;
+    text-shadow: 0 0 1px black;
+    
+       
+}
+#activity-header {
+    background: #536373;
+    color: #f3f6f4;
+    text-shadow: 0 0 2px black;
+    margin: 40px auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+;
+}
+
+#activities-to-do {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+        
+}
+    
+.link-font {
+    color: #f3f6f4;
+    font-size: 30px;
+}
+
+#concert{
+    margin: 0 20px;
+    padding: 50px 10px 10px 20px;
+    background-image: url("images/felipe-portella-h6gTtqBZUxc-unsplash.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 100px;
+    width: 150px;
+    border: 5px solid #536373;
+    border-radius: 50%;
+    color: #f3f6f4;
+    text-shadow: 0 0 2px black;
+               
+}
+
+#sports {
+    margin: 0 20px;
+    padding: 50px 10px 10px 20px;
+    background-image: url("images/casey-calhoun-xSqg4zstmCo-unsplash.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 100px;
+    width: 150px;
+    border: 5px solid #536373;
+    border-radius: 50%;
+    color: #f3f6f4;
+    text-shadow: 0 0 2px black;
+}
+
+#parks {
+    margin: 0 20px;
+    padding: 50px 10px 10px 20px;
+    background-image: url("images/gayatri-malhotra-P9gkfbaxMTU-unsplash");
+    background-size: cover; 
+    background-position: center;
+    height: 100px;
+    width: 150px;
+    border: 5px solid #536373;
+    border-radius: 50%;
+    color: #f3f6f4;
+    text-shadow: 0 0 2px black;
+}
+
+.act-descript {
+    margin: 30px auto 10px;
+    text-align: center;
+    color: #f3f6f4;
+    font-size: 14px;
+    font-style: italic;
+    width: 100px;
+    background: #536373;
+    border-radius: 5px;
+    padding: 5px;
+        
+}
+
+#guide-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto 10px;
+    width: 700px;
+    padding: 20px 10px 10px 10px;;
+    color: #536373;
+    background: #e5f3ff;
+    border: 5px solid #536373;
+    border-radius: 5px;
+    font-size: 20px;               
+}
+
+
+#profile-pic {
+    width: 100px;
+    border-radius: 5px;
+    border: 5px solid #536373;
+    margin: 10px;        
+}
+
+
+#guide-descript {
+    color: #536373;
+    font-size: 14px;
+    font-style: italic;
+    width: 550px;
+                   
+}
+
+#name {
+    font-size: 15px;
+    font-style: italic;
+}
+
